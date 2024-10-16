@@ -79,7 +79,7 @@ The Grant Engine Document Verification App is designed to streamline the process
     ```
 
 2. Create a `.env` file by copying the example environment file:
-  `cp env.example .env`
+  `cp .env.example .env`
 
 3. Add the required environment variables to the `.env` file.
 
