@@ -1,58 +1,106 @@
-# athena
+# Grant Engine Document Verification App
 
-Example of eventsourcing with FastAPI
+This project is a document verification application for Grant Engine. It consists of a frontend built with Next.js and a backend powered by FastAPI.
 
-## Getting Started
+## Table of Contents
 
-1. Install dependencies
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-```zsh
-frontend: npm install
-backend: pip install -r requirements.txt
-```
+## Introduction
 
-2. Start FastAPI process
+The Grant Engine Document Verification App is designed to streamline the process of verifying documents for grant applications. It provides a user-friendly interface for applicants and administrators to upload, review, and verify documents.
 
-```zsh
-frontend: npm run dev
-backend: fastapi dev app/main.py
-```
+## Features
 
-3. Open local API docs [http://localhost:5000/docs](http://localhost:5000/docs)
+- User authentication and authorization
+- Document upload and management
+- Real-time document verification status
+- Admin dashboard for managing applications
 
-4. Open local Next server [http://localhost:3000/](http://localhost:3000/)
+## Technologies
 
-5. Sample docker env file
+### Frontend
 
-frontend:
+- Next.js
+- React
+- Tailwind CSS
+- ShadcnUI
 
-```commandline
-NEXT_PUBLIC_LOCAL_BASE_URL=https://ec2-3-234-10-151.compute-1.amazonaws.com
-NEXT_PUBLIC_WEB_SOCKET_BASE_URL=wss://ec2-3-234-10-151.compute-1.amazonaws.com
-NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=AIzaSyDjRMq25hfcfyjAJ50TaQls8UaJXSqKUb0
-```
+### Backend
 
-backend:
+- FastAPI
+- PostgreSQL
+- SQLAlchemy
 
-```commandline
-POSTGRES_HOST=localhost
-POSTGRES_PORT=5432
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=password
-POSTGRES_DB_NAME=grant_engine
-MAX_CONNECTIONS_COUNT=10
-MIN_CONNECTIONS_COUNT=3
-DATABASE_SCHEME=postgresql+asyncpg
-REDIS_URL=redis://localhost:6379
-CELERY_BROKER_URL=redis://localhost:6379
-CELERY_RESULT_BACKEND=redis://localhost:6379
-JWT_SECRET_KEY=thisshouldbesupersecret
-ACCESS_TOKEN_EXPIRE_MINUTES=60
-REFRESH_TOKEN_EXPIRE_MINUTES=120
-RESET_TOKEN_EXPIRE_MINUTES=10
-TOKEN_ALGORITHM=HS256
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=test@test.com
-EMAIL_PASSWORD=testing
-```
+## Installation
+
+### Prerequisites
+
+- Node.js 18+
+- Python 3.10+
+- PostgreSQL
+
+### Clone the repository:
+- git clone https://github.com/techverx-org/grant-engine.git
+
+### Frontend Setup
+
+1. Change dir:
+    ```bash
+    cd frontend
+    ```
+
+2. Create a `.env.local` file by copying the example environment file:
+  `cp env.example.txt .env.local`
+
+3. Add the required environment variables to the `.env.local` file.
+
+4. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+5. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+### Backend Setup
+
+1. Change dir:
+    ```bash
+    cd backend
+    ```
+
+2. Create a `.env` file by copying the example environment file:
+  `cp env.example .env`
+
+3. Add the required environment variables to the `.env` file.
+
+4. Create a virtual environment and activate it:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate
+    ```
+
+5. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+6. Run the FastAPI server:
+    ```bash
+    fastapi dev app/main.py
+    ```
+
+## Usage
+
+1. Open your browser and navigate to `http://localhost:3000` for the frontend.
+2. The backend API will be available at `http://localhost:5000`.
+
