@@ -1,0 +1,1430 @@
+[
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "sqlalchemy.engine",
+        "description": "sqlalchemy.engine",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.engine",
+        "documentation": {}
+    },
+    {
+        "label": "async_engine_from_config",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "connect_and_init_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocket",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocketDisconnect",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "user_router",
+        "importPath": "app.api.user",
+        "description": "app.api.user",
+        "isExtraImport": true,
+        "detail": "app.api.user",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "ClassVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "importPath": "app.services.user",
+        "description": "app.services.user",
+        "isExtraImport": true,
+        "detail": "app.services.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "importPath": "app.services.user",
+        "description": "app.services.user",
+        "isExtraImport": true,
+        "detail": "app.services.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "importPath": "app.services.user",
+        "description": "app.services.user",
+        "isExtraImport": true,
+        "detail": "app.services.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "TokenResponse",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "SignUpRequest",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequest",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotPasswordRequest",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordRequest",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshAccessTokenRequest",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequest",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "SignUpRequest",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotPasswordRequest",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordRequest",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRequest",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "TokenResponse",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "AnyHttpUrl",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "computed_field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "PostgresDsn",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsConfigDict",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "Redis",
+        "importPath": "redis",
+        "description": "redis",
+        "isExtraImport": true,
+        "detail": "redis",
+        "documentation": {}
+    },
+    {
+        "label": "Celery",
+        "importPath": "celery",
+        "description": "celery",
+        "isExtraImport": true,
+        "detail": "celery",
+        "documentation": {}
+    },
+    {
+        "label": "get_task_logger",
+        "importPath": "celery.utils.log",
+        "description": "celery.utils.log",
+        "isExtraImport": true,
+        "detail": "celery.utils.log",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "smtplib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "smtplib",
+        "description": "smtplib",
+        "detail": "smtplib",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEText",
+        "importPath": "email.mime.text",
+        "description": "email.mime.text",
+        "isExtraImport": true,
+        "detail": "email.mime.text",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEMultipart",
+        "importPath": "email.mime.multipart",
+        "description": "email.mime.multipart",
+        "isExtraImport": true,
+        "detail": "email.mime.multipart",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "redis.asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "redis.asyncio",
+        "description": "redis.asyncio",
+        "detail": "redis.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncResult",
+        "importPath": "celery.result",
+        "description": "celery.result",
+        "isExtraImport": true,
+        "detail": "celery.result",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.router",
+        "description": "app.api.router",
+        "isExtraImport": true,
+        "detail": "app.api.router",
+        "documentation": {}
+    },
+    {
+        "label": "worker_init",
+        "importPath": "celery.signals",
+        "description": "celery.signals",
+        "isExtraImport": true,
+        "detail": "celery.signals",
+        "documentation": {}
+    },
+    {
+        "label": "pytest_asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest_asyncio",
+        "description": "pytest_asyncio",
+        "detail": "pytest_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "backend.alembic.env",
+        "description": "backend.alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "backend.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "do_run_migrations",
+        "kind": 2,
+        "importPath": "backend.alembic.env",
+        "description": "backend.alembic.env",
+        "peekOfCode": "def do_run_migrations(connection: Connection) -> None:\n    context.configure(connection=connection, target_metadata=target_metadata)\n    with context.begin_transaction():\n        context.run_migrations()\nasync def run_async_migrations() -> None:\n    \"\"\"In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = async_engine_from_config(\n        config.get_section(config.config_ini_section, {}),",
+        "detail": "backend.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "backend.alembic.env",
+        "description": "backend.alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\"\"\"\n    asyncio.run(run_async_migrations())\nif context.is_offline_mode():\n    run_migrations_offline()\nelse:\n    run_migrations_online()",
+        "detail": "backend.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "backend.alembic.env",
+        "description": "backend.alembic.env",
+        "peekOfCode": "config = context.config\nconfig.set_main_option(\"sqlalchemy.url\", DATABASE_URL)\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata",
+        "detail": "backend.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "backend.alembic.env",
+        "description": "backend.alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "backend.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.api.router",
+        "description": "backend.app.api.router",
+        "peekOfCode": "router = APIRouter()\nrouter.include_router(user_router, prefix=\"/user\", tags=[\"user\"])",
+        "detail": "backend.app.api.router",
+        "documentation": {}
+    },
+    {
+        "label": "user_router",
+        "kind": 5,
+        "importPath": "backend.app.api.user",
+        "description": "backend.app.api.user",
+        "peekOfCode": "user_router = APIRouter()\n@user_router.get(\n    \"/user_by_id\",\n    summary=\"Get User By Id\",\n    response_model=UserResponse,\n    status_code=status.HTTP_200_OK,\n)\nasync def user_by_id(\n    id: int,\n    db: AsyncSession = Depends(get_db),",
+        "detail": "backend.app.api.user",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "backend.app.core.config",
+        "description": "backend.app.core.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    load_dotenv()\n    model_config = SettingsConfigDict(\n        env_file=(\".env\", \".env.prod\"), case_sensitive=True\n    )\n    # `.env.prod` takes priority over `.env`\n    ENV: str = os.getenv(\"ENV\", \"dev\")\n    API_V1_STR: str = \"/api/v1\"\n    BACKEND_CORS_ORIGINS: List[AnyHttpUrl] = []\n    PROJECT_NAME: str = \"Fast-Api-PostGres-BoilerPlate\"",
+        "detail": "backend.app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "backend.app.core.config",
+        "description": "backend.app.core.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "backend.app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "backend.app.db.database",
+        "description": "backend.app.db.database",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nasync def get_db():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        await db.close()",
+        "detail": "backend.app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "backend.app.db.database",
+        "description": "backend.app.db.database",
+        "peekOfCode": "DATABASE_URL = settings.POSTGRES_DSN\nengine = create_async_engine(DATABASE_URL)\nSessionLocal = async_sessionmaker(bind=engine, expire_on_commit=False)\nclass Base(DeclarativeBase):\n    pass\nasync def get_db():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\n    db = SessionLocal()\n    try:",
+        "detail": "backend.app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "backend.app.db.database",
+        "description": "backend.app.db.database",
+        "peekOfCode": "engine = create_async_engine(DATABASE_URL)\nSessionLocal = async_sessionmaker(bind=engine, expire_on_commit=False)\nclass Base(DeclarativeBase):\n    pass\nasync def get_db():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\n    db = SessionLocal()\n    try:\n        yield db",
+        "detail": "backend.app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "backend.app.db.database",
+        "description": "backend.app.db.database",
+        "peekOfCode": "SessionLocal = async_sessionmaker(bind=engine, expire_on_commit=False)\nclass Base(DeclarativeBase):\n    pass\nasync def get_db():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
+        "detail": "backend.app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "backend.app.models.user",
+        "description": "backend.app.models.user",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True, index=True)\n    username: Mapped[str] = mapped_column(unique=True, index=True, nullable=False)\n    first_name: Mapped[str] = mapped_column(nullable=True)\n    last_name: Mapped[str] = mapped_column(nullable=True)\n    email: Mapped[str] = mapped_column(unique=True, index=True, nullable=False)\n    password: Mapped[str] = mapped_column(nullable=False)\n    date_created: Mapped[datetime] = mapped_column(default=datetime.utcnow)",
+        "detail": "backend.app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "backend.app.schemas.user",
+        "description": "backend.app.schemas.user",
+        "peekOfCode": "class UserBase(BaseModel):\n    email: EmailStr\nclass UserBaseExtended(UserBase):\n    username: str\n    first_name: str\n    last_name: str\nclass UserResponse(UserBaseExtended):\n    id: int\n    model_config = ConfigDict(from_attributes=True)\nclass SignUpRequest(UserBaseExtended):",
+        "detail": "backend.app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserBaseExtended",
+        "kind": 6,
+        "importPath": "backend.app.schemas.user",
+        "description": "backend.app.schemas.user",
+        "peekOfCode": "class UserBaseExtended(UserBase):\n    username: str\n    first_name: str\n    last_name: str\nclass UserResponse(UserBaseExtended):\n    id: int\n    model_config = ConfigDict(from_attributes=True)\nclass SignUpRequest(UserBaseExtended):\n    password: str\n    model_config = ConfigDict(from_attributes=True)",
+        "detail": "backend.app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "kind": 6,
+        "importPath": "backend.app.schemas.user",
+        "description": "backend.app.schemas.user",
+        "peekOfCode": "class UserResponse(UserBaseExtended):\n    id: int\n    model_config = ConfigDict(from_attributes=True)\nclass SignUpRequest(UserBaseExtended):\n    password: str\n    model_config = ConfigDict(from_attributes=True)\nclass LoginRequest(UserBase):\n    password: str\n    remember_me: bool\n    model_config = ConfigDict(from_attributes=True)",
+        "detail": "backend.app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "SignUpRequest",
+        "kind": 6,
+        "importPath": "backend.app.schemas.user",
+        "description": "backend.app.schemas.user",
+        "peekOfCode": "class SignUpRequest(UserBaseExtended):\n    password: str\n    model_config = ConfigDict(from_attributes=True)\nclass LoginRequest(UserBase):\n    password: str\n    remember_me: bool\n    model_config = ConfigDict(from_attributes=True)\nclass ForgotPasswordRequest(UserBase):\n    model_config = ConfigDict(from_attributes=True)\nclass ResetPasswordRequest(BaseModel):",
+        "detail": "backend.app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequest",
+        "kind": 6,
+        "importPath": "backend.app.schemas.user",
+        "description": "backend.app.schemas.user",
+        "peekOfCode": "class LoginRequest(UserBase):\n    password: str\n    remember_me: bool\n    model_config = ConfigDict(from_attributes=True)\nclass ForgotPasswordRequest(UserBase):\n    model_config = ConfigDict(from_attributes=True)\nclass ResetPasswordRequest(BaseModel):\n    reset_token: str\n    password: str\n    model_config = ConfigDict(from_attributes=True)",
+        "detail": "backend.app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotPasswordRequest",
+        "kind": 6,
+        "importPath": "backend.app.schemas.user",
+        "description": "backend.app.schemas.user",
+        "peekOfCode": "class ForgotPasswordRequest(UserBase):\n    model_config = ConfigDict(from_attributes=True)\nclass ResetPasswordRequest(BaseModel):\n    reset_token: str\n    password: str\n    model_config = ConfigDict(from_attributes=True)\nclass TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    expires_at: datetime",
+        "detail": "backend.app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordRequest",
+        "kind": 6,
+        "importPath": "backend.app.schemas.user",
+        "description": "backend.app.schemas.user",
+        "peekOfCode": "class ResetPasswordRequest(BaseModel):\n    reset_token: str\n    password: str\n    model_config = ConfigDict(from_attributes=True)\nclass TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    expires_at: datetime\n    model_config = ConfigDict(from_attributes=True)\nclass TokenRequest(BaseModel):",
+        "detail": "backend.app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "TokenResponse",
+        "kind": 6,
+        "importPath": "backend.app.schemas.user",
+        "description": "backend.app.schemas.user",
+        "peekOfCode": "class TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    expires_at: datetime\n    model_config = ConfigDict(from_attributes=True)\nclass TokenRequest(BaseModel):\n    sub: UUID\n    exp: int\n    model_config = ConfigDict(from_attributes=True)\nclass RefreshAccessTokenRequest(BaseModel):",
+        "detail": "backend.app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRequest",
+        "kind": 6,
+        "importPath": "backend.app.schemas.user",
+        "description": "backend.app.schemas.user",
+        "peekOfCode": "class TokenRequest(BaseModel):\n    sub: UUID\n    exp: int\n    model_config = ConfigDict(from_attributes=True)\nclass RefreshAccessTokenRequest(BaseModel):\n    refresh_token: str\n    model_config = ConfigDict(from_attributes=True)",
+        "detail": "backend.app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshAccessTokenRequest",
+        "kind": 6,
+        "importPath": "backend.app.schemas.user",
+        "description": "backend.app.schemas.user",
+        "peekOfCode": "class RefreshAccessTokenRequest(BaseModel):\n    refresh_token: str\n    model_config = ConfigDict(from_attributes=True)",
+        "detail": "backend.app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "kind": 6,
+        "importPath": "backend.app.services.user",
+        "description": "backend.app.services.user",
+        "peekOfCode": "class UserService:\n    @staticmethod\n    def verify_password(password: str, hashed_password: str) -> bool:\n        try:\n            verification = password_context.verify(password, hashed_password)\n            return verification\n        except Exception as e:\n            raise HTTPException(\n                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e)\n            )",
+        "detail": "backend.app.services.user",
+        "documentation": {}
+    },
+    {
+        "label": "password_context",
+        "kind": 5,
+        "importPath": "backend.app.services.user",
+        "description": "backend.app.services.user",
+        "peekOfCode": "password_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass UserService:\n    @staticmethod\n    def verify_password(password: str, hashed_password: str) -> bool:\n        try:\n            verification = password_context.verify(password, hashed_password)\n            return verification\n        except Exception as e:\n            raise HTTPException(\n                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e)",
+        "detail": "backend.app.services.user",
+        "documentation": {}
+    },
+    {
+        "label": "task_status",
+        "kind": 2,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "def task_status(task_id: str, _: User = Depends(UserService.authenticate_current_user)):\n    try:\n        response = AsyncResult(task_id)\n        result = {\n            \"task_id\": task_id,\n            \"task_status\": response.status,\n            \"task_result\": response.result,\n        }\n        return result\n    except Exception as e:",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "app = FastAPI(\n    title=settings.PROJECT_NAME,\n    openapi_url=f\"{settings.API_V1_STR}/openapi.json\",\n    docs_url=\"/\",\n)\napp.include_router(router, prefix=settings.API_V1_STR)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],\n    allow_methods=[\"*\"],",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "on_worker_init",
+        "kind": 2,
+        "importPath": "backend.app.worker",
+        "description": "backend.app.worker",
+        "peekOfCode": "def on_worker_init(**kwargs):\n    loop.run_until_complete(get_db())",
+        "detail": "backend.app.worker",
+        "documentation": {}
+    },
+    {
+        "label": "celery",
+        "kind": 5,
+        "importPath": "backend.app.worker",
+        "description": "backend.app.worker",
+        "peekOfCode": "celery = settings.celery\nredis_client = settings.redis_client\nloop = settings.loop\n@worker_init.connect\ndef on_worker_init(**kwargs):\n    loop.run_until_complete(get_db())",
+        "detail": "backend.app.worker",
+        "documentation": {}
+    },
+    {
+        "label": "redis_client",
+        "kind": 5,
+        "importPath": "backend.app.worker",
+        "description": "backend.app.worker",
+        "peekOfCode": "redis_client = settings.redis_client\nloop = settings.loop\n@worker_init.connect\ndef on_worker_init(**kwargs):\n    loop.run_until_complete(get_db())",
+        "detail": "backend.app.worker",
+        "documentation": {}
+    },
+    {
+        "label": "loop",
+        "kind": 5,
+        "importPath": "backend.app.worker",
+        "description": "backend.app.worker",
+        "peekOfCode": "loop = settings.loop\n@worker_init.connect\ndef on_worker_init(**kwargs):\n    loop.run_until_complete(get_db())",
+        "detail": "backend.app.worker",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "def stringify(value):\n    return _stringify(value, separators=(',', ':'))\nassert stringify([None, None]) == '[[null,null]]'\na = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "a = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['o']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "b = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['one']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['two']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['three']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['a']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['test']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['array']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "a2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "str = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "oo",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "oo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    }
+]
