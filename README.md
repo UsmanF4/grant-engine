@@ -47,60 +47,65 @@ The Grant Engine Document Verification App is designed to streamline the process
 - PostgreSQL
 
 ### Clone the repository:
+
 - git clone https://github.com/techverx-org/grant-engine.git
 
 ### Frontend Setup
 
 1. Change dir:
-    ```bash
-    cd frontend
-    ```
+
+   ```bash
+   cd frontend
+   ```
 
 2. Create a `.env.local` file by copying the example environment file:
-  `cp env.example.txt .env.local`
+   `cp .env.example .env.local`
 
 3. Add the required environment variables to the `.env.local` file.
 
 4. Install dependencies:
-    ```bash
-    npm install
-    ```
+
+   ```bash
+   npm install
+   ```
 
 5. Start the development server:
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 
 ### Backend Setup
 
 1. Change dir:
-    ```bash
-    cd backend
-    ```
+
+   ```bash
+   cd backend
+   ```
 
 2. Create a `.env` file by copying the example environment file:
-  `cp .env.example .env`
+   `cp .env.example .env`
 
 3. Add the required environment variables to the `.env` file.
 
 4. Create a virtual environment and activate it:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate
-    ```
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
 
 5. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 6. Run the FastAPI server:
-    ```bash
-    fastapi dev app/main.py
-    ```
+   ```bash
+   fastapi dev app/main.py
+   ```
 
 ## Usage
 
 1. Open your browser and navigate to `http://localhost:3000` for the frontend.
 2. The backend API will be available at `http://localhost:5000`.
-
