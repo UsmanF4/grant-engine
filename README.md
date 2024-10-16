@@ -1,22 +1,38 @@
-# Fast Api PostGres BoilerPlate
+# athena
+
+Example of eventsourcing with FastAPI
 
 ## Getting Started
 
 1. Install dependencies
 
 ```zsh
-pip install -r requirements.txt
+frontend: npm install
+backend: pip install -r requirements.txt
 ```
 
 2. Start FastAPI process
 
 ```zsh
-fastapi dev app/main.py
+frontend: npm run dev
+backend: fastapi dev app/main.py
 ```
 
 3. Open local API docs [http://localhost:5000/docs](http://localhost:5000/docs)
 
-4. Sample docker env file
+4. Open local Next server [http://localhost:3000/](http://localhost:3000/)
+
+5. Sample docker env file
+
+frontend:
+
+```commandline
+NEXT_PUBLIC_LOCAL_BASE_URL=https://ec2-3-234-10-151.compute-1.amazonaws.com
+NEXT_PUBLIC_WEB_SOCKET_BASE_URL=wss://ec2-3-234-10-151.compute-1.amazonaws.com
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=AIzaSyDjRMq25hfcfyjAJ50TaQls8UaJXSqKUb0
+```
+
+backend:
 
 ```commandline
 POSTGRES_HOST=localhost
