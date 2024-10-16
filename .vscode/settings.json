@@ -1,0 +1,26 @@
+{
+  // General settings for the workspace
+  "editor.formatOnSave": true,
+
+  // Formatter settings for the frontend (JavaScript/React)
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Prettier-specific settings for the frontend
+  "prettier.requireConfig": true,
+
+  // Formatter settings for the backend (Python)
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}
