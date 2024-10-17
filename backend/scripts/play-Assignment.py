@@ -25,8 +25,7 @@ def extract_awarding_components(doc):
         if awarding_components_text:
             print(awarding_components_text)
             count_awards += count_non_empty_entries(awarding_components_text)
-    if count_awards < 2:
-        raise ValueError("Count of awards is less than 2. Value Missing!")
+    print("Number of Awarding Components: ",count_awards)
     return count_awards
 
 
@@ -46,25 +45,28 @@ def extract_study_sections(doc):
         if study_sections_text:
             print(study_sections_text)
             count_sections += count_non_empty_entries(study_sections_text)
-    if count_sections < 1:
-        raise ValueError("Count of study sections is less than 1. Value Missing!")
+    print("Number of Count Sections: ",count_sections)
     return count_sections
 
+def validate_DMSP(doc):
+    count_awards = extract_awarding_components(doc)
+    count_study_sections = extract_study_sections(doc)
+    errors = []
+
+    if count_awards < 2:
+        errors.append("Less than 2 awards found")
+    if count_study_sections < 1:
+        errors.append("Less than 1 study section found")
+    if not errors:
+        errors.append("No errors found")
+
+    return errors
+        
 
 def main():
-    doc = fitz.open("Docs/Dare_Sept24_PhII_Assignment_Submitted.pdf")
-    try:
-        count_awards = extract_awarding_components(doc)
-        print("Count of awards:", count_awards)
-    except ValueError as e:
-        print(e)
-
-    try:
-        count_study_sections = extract_study_sections(doc)
-        print("Count of study sections:", count_study_sections)
-    except ValueError as e:
-        print(e)
-
+    doc = fitz.open("Docs/AG DMSP 20240102.pdf")
+    Error = validate_DMSP(doc)
+    print(Error)
     doc.close()
 
 
