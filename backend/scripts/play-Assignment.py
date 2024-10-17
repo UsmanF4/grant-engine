@@ -51,8 +51,12 @@ def main():
     doc = fitz.open("Docs/Dare_Sept24_PhII_Assignment_Submitted.pdf")
     count_awards = extract_awarding_components(doc)
     print("Count of awards:", count_awards)
+    if count_awards < 2:
+        print("Value Missing!")
     count_study_sections = extract_study_sections(doc)
     print("Count of study sections:", count_study_sections)
+    if count_study_sections < 1:
+        print("Value Missing!")
     doc.close()
 
 
