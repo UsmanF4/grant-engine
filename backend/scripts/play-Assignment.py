@@ -25,7 +25,7 @@ def extract_awarding_components(doc):
         if awarding_components_text:
             print(awarding_components_text)
             count_awards += count_non_empty_entries(awarding_components_text)
-    print("Number of Awarding Components: ",count_awards)
+    print("Number of Awarding Components: ", count_awards)
     return count_awards
 
 
@@ -45,8 +45,9 @@ def extract_study_sections(doc):
         if study_sections_text:
             print(study_sections_text)
             count_sections += count_non_empty_entries(study_sections_text)
-    print("Number of Count Sections: ",count_sections)
+    print("Number of Count Sections: ", count_sections)
     return count_sections
+
 
 def validate_DMSP(doc):
     count_awards = extract_awarding_components(doc)
@@ -61,10 +62,10 @@ def validate_DMSP(doc):
         errors.append("No errors found")
 
     return errors
-        
+
 
 def main():
-    doc = fitz.open("Docs/AG DMSP 20240102.pdf")
+    doc = fitz.open("Docs/Assigments/AG DMSP 20240102.pdf")
     Error = validate_DMSP(doc)
     print(Error)
     doc.close()
