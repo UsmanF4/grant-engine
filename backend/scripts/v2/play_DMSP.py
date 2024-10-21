@@ -1,5 +1,5 @@
 import fitz
-from helper import get_pdf_document, extract_text_from_doc
+from helper import get_pdf_document
 
 ELEMENTS = [
     "Element 1: Data Type",
@@ -18,6 +18,13 @@ CONDITIONS = {
     "Element 3:": "Error: Element A found",
     "Element 6:": "Error: Element A found",
 }
+
+
+def extract_text_from_doc(doc):
+    text = ""
+    for page in doc:
+        text += page.get_text("text") + "\n"
+    return text
 
 
 def check_elements(doc, exact_match=False):
@@ -43,7 +50,8 @@ def find_sub_elements(doc):
     sub_elements = []
     element_set = set(ELEMENTS)
     text = extract_text_from_doc(doc)
-    for line in text:
+
+    for line in text.split("\n"):
         for element in element_set:
             if line.startswith(element):
                 start = text.find(line)
@@ -106,7 +114,7 @@ def validate_DMSP(doc):
 
 
 def main():
-    file_path = "../Docs/DMSP/Maipl_DMSP_Preview 1.pdf"
+    file_path = "../test/DMSP3.docx"
     doc = get_pdf_document(file_path)
     errors = validate_DMSP(doc)
     print(errors)
