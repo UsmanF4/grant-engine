@@ -145,7 +145,7 @@ def validate_subject_involvement(section_text, pages_info, subject_type):
     return errors
 
 def main():
-    pdf_path = "../Docs/Application"
+    pdf_path = "../../Docs/Application/Amalgent_Sept4_FT_Application_Submitted.pdf"
     section_title = "R&R Other Project Information"
     doc = get_pdf_document(pdf_path)
 
