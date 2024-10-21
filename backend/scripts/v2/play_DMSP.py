@@ -43,7 +43,7 @@ def find_sub_elements(doc):
     sub_elements = []
     element_set = set(ELEMENTS)
     text = extract_text_from_doc(doc)
-    for line in text.split("\n"):
+    for line in text:
         for element in element_set:
             if line.startswith(element):
                 start = text.find(line)
