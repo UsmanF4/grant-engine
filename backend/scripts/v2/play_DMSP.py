@@ -31,19 +31,36 @@ def check_elements(doc, exact_match=False):
     element_set = set(ELEMENTS)
     found_elements = set()
     text = extract_text_from_doc(doc)
+    element_count = {element: 0 for element in ELEMENTS}
+    other_elements_found = False
+
     for line in text.split("\n"):
         for element in element_set:
             if (exact_match and line.strip() == element) or (
                 not exact_match and line.startswith(element)
             ):
                 found_elements.add(element)
+                element_count[element] += 1
+
+        if line.lower().startswith("element") and not any(
+            line.startswith(element) for element in element_set
+        ):
+            other_elements_found = True
 
     missing_elements = list(element_set - found_elements)
-    return (
-        [f"{element} is missing" for element in missing_elements]
-        if missing_elements
-        else "All elements are present" if not exact_match else "No error found"
-    )
+    duplicate_elements = [element for element, count in element_count.items() if count > 1]
+
+    errors = []
+    if missing_elements:
+        errors.extend([f"{element} is missing" for element in missing_elements])
+    if duplicate_elements:
+        errors.extend([f"{element} exists more than once" for element in duplicate_elements])
+    if other_elements_found:
+        errors.append("Other elements found that are not in the predefined list")
+    if len(found_elements) != len(ELEMENTS):
+        errors.append(f"Total elements found are not equal to {len(ELEMENTS)}")
+
+    return errors if errors else "All elements are present"
 
 
 def find_sub_elements(doc):
@@ -114,7 +131,7 @@ def validate_DMSP(doc):
 
 
 def main():
-    file_path = "../test/DMSP3.docx"
+    file_path = "../test/DMSP2 2.pdf"
     doc = get_pdf_document(file_path)
     errors = validate_DMSP(doc)
     print(errors)
