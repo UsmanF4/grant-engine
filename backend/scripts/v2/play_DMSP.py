@@ -131,7 +131,7 @@ def validate_DMSP(doc):
 
 
 def main():
-    file_path = "../test/DMSP2 2.pdf"
+    file_path = "../TestDocuments/DMSP3.pdf"
     doc = get_pdf_document(file_path)
     errors = validate_DMSP(doc)
     print(errors)

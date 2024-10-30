@@ -50,7 +50,7 @@ def validate_DMSP(doc):
     return errors
 
 def main():
-    doc = get_pdf_document("../Docs/Assigments/Dare_Sept24_PhII_Assignment_Submitted.pdf")
+    doc = get_pdf_document("../TestDocuments/ARF2.pdf")
     errors = validate_DMSP(doc)
     print(errors)
     doc.close()
